@@ -16,3 +16,4 @@ group :development, :test do
 end
 
 gem 'paperclip', '4.2.1'
+gem 'paperclip-staging', '~> 0.1'

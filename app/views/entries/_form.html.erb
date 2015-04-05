@@ -17,12 +17,13 @@
   </div>
   <div class="field">
     <%= f.label :file %><br>
+    <%= f.hidden_field :file_staging %>
     <%= f.file_field :file %>
   </div>
   <div class="field">
     Current file:<br/>
     <% if @entry.file.present? %>
-      <%= image_tag @entry.file.url(:medium) %>
+      <%= image_tag @entry.file.staged_url(:medium) %>
     <% else %>
       none
     <% end %>
