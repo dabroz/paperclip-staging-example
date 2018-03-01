@@ -15,5 +15,5 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
-gem 'paperclip', '4.2.1'
-gem 'paperclip-staging', '~> 0.1'
+gem 'paperclip', '~> 5.2.0'
+gem 'paperclip-staging', '~> 0.2'
